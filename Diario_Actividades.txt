@@ -2,4 +2,4 @@ En este archivo se guardara envidencia de cada avance del proyecto, lo haremos a
 fechas y comentarios de los que realizo.
 
 8/10/2020, 05:42pm			Inicio del Proyecto.			Cristian I. Vargas
-8/10/2020, 10:20pm			Creacion del archivo de la BD.		Cristian I. Vargas		
+8/10/2020, 10:20pm			Creacion de la BD.			Cristian I. Vargas		
