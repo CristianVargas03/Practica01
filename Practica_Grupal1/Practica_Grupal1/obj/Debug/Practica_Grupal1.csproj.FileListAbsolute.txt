@@ -1,0 +1,17 @@
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\obj\Debug\Practica_Grupal1.csprojAssemblyReference.cache
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\obj\Debug\Practica_Grupal1.Properties.Resources.resources
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\obj\Debug\Practica_Grupal1.csproj.GenerateResource.cache
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\obj\Debug\Practica_Grupal1.csproj.CoreCompileInputs.cache
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\bin\Debug\Practica_Grupal1.exe.config
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\bin\Debug\Practica_Grupal1.exe
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\bin\Debug\Practica_Grupal1.pdb
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\bin\Debug\Guna.UI.dll
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\obj\Debug\Practica_Grupal1.csproj.CopyComplete
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\obj\Debug\Practica_Grupal1.exe
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\obj\Debug\Practica_Grupal1.pdb
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\obj\Debug\Practica_Grupal1.Views.Main.resources
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\obj\Debug\Practica_Grupal1.Views.Categorias.resources
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\obj\Debug\Practica_Grupal1.Views.Lista.resources
+D:\Practica01-main\Practica_Grupal1\Practica_Grupal1\obj\Debug\Practica_Grupal1.Views.Productos.resources
