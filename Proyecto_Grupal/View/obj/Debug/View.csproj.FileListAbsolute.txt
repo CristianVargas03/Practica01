@@ -14,3 +14,19 @@ D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.csproj.CoreCompileInputs.cache
 D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.csproj.CopyComplete
 D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.exe
 D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.pdb
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\bin\Debug\View.exe.config
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\bin\Debug\View.exe
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\bin\Debug\View.pdb
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\bin\Debug\Controller.dll
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\bin\Debug\Controller.pdb
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.csprojAssemblyReference.cache
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.Categoria.resources
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.Form1.resources
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.Lista.resources
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.Productos.resources
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.csproj.CopyComplete
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.exe
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.pdb
