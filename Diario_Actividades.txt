@@ -6,4 +6,8 @@ fechas y comentarios de los que realizo.
 12/10/2020, 06:30pm			Creacion de la Vista.			Eddyson Ureña
 12/10/2020, 6:30pm			Creacion de Modelo.			Onily Valera
 12/10/2020, 7:30pm			Reunion Por Meet.			Todos
-12/10/2020, 10:30pm			Creacion de Controles.			Cristian I. Vargas
+12/10/2020, 10:30pm			Creacion de Controller.			Cristian I. Vargas
+13/10/2020, 12:30pm			Reunion por Meet.			Todos.
+13/10/2020, 3:15pm			Conexiones				Onily Valera
+13/10/2020, 4:00pm			Ajustes en Controller.			Cristian I. Vargas
+13/10/2020, 4:30pm			Ajustes en Vista			Eddyson Ureña
