@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace Practica_Grupal1.Modelo.DTO
+namespace Practica_Grupal1.Controls
 {
-    class Producto
+    public class Productos_Ctrl
     {
-        //Atributos 
-
         public int ID
         {
             get
@@ -19,7 +18,6 @@ namespace Practica_Grupal1.Modelo.DTO
             set
             {
                 ID = value;
-
             }
         }
 
@@ -32,7 +30,6 @@ namespace Practica_Grupal1.Modelo.DTO
             set
             {
                 Nombre_Producto = value;
-
             }
         }
 
@@ -68,7 +65,6 @@ namespace Practica_Grupal1.Modelo.DTO
             set
             {
                 Fecha_Vencimiento = value;
-
             }
         }
 
@@ -81,7 +77,6 @@ namespace Practica_Grupal1.Modelo.DTO
             set
             {
                 Descripcion = value;
-
             }
         }
 
@@ -94,7 +89,6 @@ namespace Practica_Grupal1.Modelo.DTO
             set
             {
                 Categoria = value;
-
             }
         }
 
@@ -108,12 +102,27 @@ namespace Practica_Grupal1.Modelo.DTO
             {
                 Estado = value;
             }
-
         }
 
-        public void Read() 
-        { 
-            
+        public void Read()
+        {
+            MessageBox.Show("Prueba del Boton Read!");
+        }
+
+        public void Created()
+        {
+            MessageBox.Show("Prueba del Boton Create!");
+        }
+
+        public void Update()
+        {
+            MessageBox.Show("Prueba del Boton Update!");
+        }
+
+        public void Delete()
+        {
+            MessageBox.Show("Prueba del Boton Delete");
         }
     }
 }
+

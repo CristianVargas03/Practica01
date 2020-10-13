@@ -3,3 +3,7 @@ fechas y comentarios de los que realizo.
 
 8/10/2020, 05:42pm			Inicio del Proyecto.			Cristian I. Vargas
 8/10/2020, 10:20pm			Creacion de la BD.			Cristian I. Vargas		
+12/10/2020, 06:30pm			Creacion de la Vista.			Eddyson Ureña
+12/10/2020, 6:30pm			Creacion de Modelo.			Onily Valera
+12/10/2020, 7:30pm			Reunion Por Meet.			Todos
+12/10/2020, 10:30pm			Creacion de Controles.			Cristian I. Vargas
