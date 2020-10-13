@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practica_Grupal1", "Practica_Grupal1\Practica_Grupal1.csproj", "{96FBE746-211F-402D-AD6D-0439F8D7C702}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Views", "Practica_Grupal1\Views.csproj", "{96FBE746-211F-402D-AD6D-0439F8D7C702}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
