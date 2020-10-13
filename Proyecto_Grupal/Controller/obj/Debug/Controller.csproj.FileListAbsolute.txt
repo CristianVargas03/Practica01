@@ -1,0 +1,6 @@
+D:\Practica01\Proyecto_Grupal\Controller\bin\Debug\Controller.dll
+D:\Practica01\Proyecto_Grupal\Controller\bin\Debug\Controller.pdb
+D:\Practica01\Proyecto_Grupal\Controller\obj\Debug\Controller.csprojAssemblyReference.cache
+D:\Practica01\Proyecto_Grupal\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
+D:\Practica01\Proyecto_Grupal\Controller\obj\Debug\Controller.dll
+D:\Practica01\Proyecto_Grupal\Controller\obj\Debug\Controller.pdb

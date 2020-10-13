@@ -4,3 +4,9 @@ C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\Models\o
 C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
 C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\Models\obj\Debug\Models.dll
 C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\Models\obj\Debug\Models.pdb
+D:\Practica01\Proyecto_Grupal\Models\bin\Debug\Models.dll
+D:\Practica01\Proyecto_Grupal\Models\bin\Debug\Models.pdb
+D:\Practica01\Proyecto_Grupal\Models\obj\Debug\Models.csprojAssemblyReference.cache
+D:\Practica01\Proyecto_Grupal\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Practica01\Proyecto_Grupal\Models\obj\Debug\Models.dll
+D:\Practica01\Proyecto_Grupal\Models\obj\Debug\Models.pdb

@@ -1,0 +1,16 @@
+D:\Practica01\Proyecto_Grupal\View\bin\Debug\View.exe.config
+D:\Practica01\Proyecto_Grupal\View\bin\Debug\View.exe
+D:\Practica01\Proyecto_Grupal\View\bin\Debug\View.pdb
+D:\Practica01\Proyecto_Grupal\View\bin\Debug\Controller.dll
+D:\Practica01\Proyecto_Grupal\View\bin\Debug\Controller.pdb
+D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.csprojAssemblyReference.cache
+D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.Categoria.resources
+D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.Form1.resources
+D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.Lista.resources
+D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.Productos.resources
+D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.Properties.Resources.resources
+D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.csproj.GenerateResource.cache
+D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.csproj.CopyComplete
+D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.exe
+D:\Practica01\Proyecto_Grupal\View\obj\Debug\View.pdb
