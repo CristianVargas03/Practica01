@@ -58,7 +58,7 @@
             this.panel_producto.Controls.Add(this.txt_ID_Categoria);
             this.panel_producto.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel_producto.Location = new System.Drawing.Point(757, 0);
-            this.panel_producto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel_producto.Margin = new System.Windows.Forms.Padding(2);
             this.panel_producto.Name = "panel_producto";
             this.panel_producto.Size = new System.Drawing.Size(160, 488);
             this.panel_producto.TabIndex = 1;
@@ -71,7 +71,7 @@
             "Activo",
             "Inactivo"});
             this.cb_estado_categoria.Location = new System.Drawing.Point(4, 218);
-            this.cb_estado_categoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_estado_categoria.Margin = new System.Windows.Forms.Padding(2);
             this.cb_estado_categoria.Name = "cb_estado_categoria";
             this.cb_estado_categoria.Size = new System.Drawing.Size(142, 29);
             this.cb_estado_categoria.TabIndex = 6;
@@ -102,7 +102,7 @@
             // 
             this.txt_Nombre_Categoria.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Nombre_Categoria.Location = new System.Drawing.Point(4, 154);
-            this.txt_Nombre_Categoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Nombre_Categoria.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Nombre_Categoria.Name = "txt_Nombre_Categoria";
             this.txt_Nombre_Categoria.Size = new System.Drawing.Size(142, 27);
             this.txt_Nombre_Categoria.TabIndex = 2;
@@ -122,7 +122,7 @@
             // 
             this.txt_ID_Categoria.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_ID_Categoria.Location = new System.Drawing.Point(4, 91);
-            this.txt_ID_Categoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_ID_Categoria.Margin = new System.Windows.Forms.Padding(2);
             this.txt_ID_Categoria.Name = "txt_ID_Categoria";
             this.txt_ID_Categoria.Size = new System.Drawing.Size(142, 27);
             this.txt_ID_Categoria.TabIndex = 0;
@@ -136,7 +136,7 @@
             this.crud_productos.Controls.Add(this.btn_create_categoria);
             this.crud_productos.Dock = System.Windows.Forms.DockStyle.Top;
             this.crud_productos.Location = new System.Drawing.Point(0, 0);
-            this.crud_productos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.crud_productos.Margin = new System.Windows.Forms.Padding(2);
             this.crud_productos.Name = "crud_productos";
             this.crud_productos.Size = new System.Drawing.Size(757, 81);
             this.crud_productos.TabIndex = 2;
@@ -154,7 +154,7 @@
             this.btn_delete_categoria.Image = ((System.Drawing.Image)(resources.GetObject("btn_delete_categoria.Image")));
             this.btn_delete_categoria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_delete_categoria.Location = new System.Drawing.Point(591, 17);
-            this.btn_delete_categoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_delete_categoria.Margin = new System.Windows.Forms.Padding(2);
             this.btn_delete_categoria.Name = "btn_delete_categoria";
             this.btn_delete_categoria.Size = new System.Drawing.Size(125, 47);
             this.btn_delete_categoria.TabIndex = 11;
@@ -175,7 +175,7 @@
             this.btn_update_categoria.Image = ((System.Drawing.Image)(resources.GetObject("btn_update_categoria.Image")));
             this.btn_update_categoria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_update_categoria.Location = new System.Drawing.Point(406, 17);
-            this.btn_update_categoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_update_categoria.Margin = new System.Windows.Forms.Padding(2);
             this.btn_update_categoria.Name = "btn_update_categoria";
             this.btn_update_categoria.Size = new System.Drawing.Size(125, 47);
             this.btn_update_categoria.TabIndex = 10;
@@ -196,7 +196,7 @@
             this.btn_Read_categoria.Image = ((System.Drawing.Image)(resources.GetObject("btn_Read_categoria.Image")));
             this.btn_Read_categoria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Read_categoria.Location = new System.Drawing.Point(222, 17);
-            this.btn_Read_categoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Read_categoria.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Read_categoria.Name = "btn_Read_categoria";
             this.btn_Read_categoria.Size = new System.Drawing.Size(125, 47);
             this.btn_Read_categoria.TabIndex = 9;
@@ -217,7 +217,7 @@
             this.btn_create_categoria.Image = ((System.Drawing.Image)(resources.GetObject("btn_create_categoria.Image")));
             this.btn_create_categoria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_create_categoria.Location = new System.Drawing.Point(38, 17);
-            this.btn_create_categoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_create_categoria.Margin = new System.Windows.Forms.Padding(2);
             this.btn_create_categoria.Name = "btn_create_categoria";
             this.btn_create_categoria.Size = new System.Drawing.Size(125, 47);
             this.btn_create_categoria.TabIndex = 8;
@@ -231,7 +231,7 @@
             this.dgCategoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgCategoria.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgCategoria.Location = new System.Drawing.Point(0, 81);
-            this.dgCategoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgCategoria.Margin = new System.Windows.Forms.Padding(2);
             this.dgCategoria.Name = "dgCategoria";
             this.dgCategoria.RowHeadersWidth = 51;
             this.dgCategoria.RowTemplate.Height = 24;
@@ -247,8 +247,9 @@
             this.Controls.Add(this.crud_productos);
             this.Controls.Add(this.panel_producto);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Categoria";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Categoria";
             this.panel_producto.ResumeLayout(false);
             this.panel_producto.PerformLayout();

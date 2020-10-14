@@ -58,8 +58,9 @@
             this.panel_menu.Controls.Add(this.pictureBox2);
             this.panel_menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel_menu.Location = new System.Drawing.Point(0, 0);
+            this.panel_menu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel_menu.Name = "panel_menu";
-            this.panel_menu.Size = new System.Drawing.Size(77, 650);
+            this.panel_menu.Size = new System.Drawing.Size(58, 528);
             this.panel_menu.TabIndex = 0;
             // 
             // btn_lista
@@ -73,9 +74,10 @@
             this.btn_lista.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_lista.Image = ((System.Drawing.Image)(resources.GetObject("btn_lista.Image")));
             this.btn_lista.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_lista.Location = new System.Drawing.Point(3, 441);
+            this.btn_lista.Location = new System.Drawing.Point(2, 358);
+            this.btn_lista.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_lista.Name = "btn_lista";
-            this.btn_lista.Size = new System.Drawing.Size(333, 65);
+            this.btn_lista.Size = new System.Drawing.Size(250, 53);
             this.btn_lista.TabIndex = 3;
             this.btn_lista.Text = " Lista";
             this.btn_lista.UseVisualStyleBackColor = false;
@@ -92,9 +94,10 @@
             this.btn_categoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_categoria.Image = ((System.Drawing.Image)(resources.GetObject("btn_categoria.Image")));
             this.btn_categoria.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_categoria.Location = new System.Drawing.Point(3, 354);
+            this.btn_categoria.Location = new System.Drawing.Point(2, 288);
+            this.btn_categoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_categoria.Name = "btn_categoria";
-            this.btn_categoria.Size = new System.Drawing.Size(333, 65);
+            this.btn_categoria.Size = new System.Drawing.Size(250, 53);
             this.btn_categoria.TabIndex = 2;
             this.btn_categoria.Text = " Categoria";
             this.btn_categoria.UseVisualStyleBackColor = false;
@@ -111,9 +114,10 @@
             this.btn_productos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_productos.Image = ((System.Drawing.Image)(resources.GetObject("btn_productos.Image")));
             this.btn_productos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_productos.Location = new System.Drawing.Point(3, 267);
+            this.btn_productos.Location = new System.Drawing.Point(2, 217);
+            this.btn_productos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_productos.Name = "btn_productos";
-            this.btn_productos.Size = new System.Drawing.Size(333, 65);
+            this.btn_productos.Size = new System.Drawing.Size(250, 53);
             this.btn_productos.TabIndex = 1;
             this.btn_productos.Text = " productos";
             this.btn_productos.UseVisualStyleBackColor = false;
@@ -122,9 +126,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(3, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(2, 10);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(68, 67);
+            this.pictureBox2.Size = new System.Drawing.Size(51, 54);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -137,9 +142,10 @@
             this.bar_title.Controls.Add(this.btn_close);
             this.bar_title.Controls.Add(this.btn_menu);
             this.bar_title.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bar_title.Location = new System.Drawing.Point(77, 0);
+            this.bar_title.Location = new System.Drawing.Point(58, 0);
+            this.bar_title.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.bar_title.Name = "bar_title";
-            this.bar_title.Size = new System.Drawing.Size(1223, 50);
+            this.bar_title.Size = new System.Drawing.Size(917, 41);
             this.bar_title.TabIndex = 1;
             // 
             // btn_restore
@@ -147,9 +153,10 @@
             this.btn_restore.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_restore.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_restore.Image = ((System.Drawing.Image)(resources.GetObject("btn_restore.Image")));
-            this.btn_restore.Location = new System.Drawing.Point(1141, 12);
+            this.btn_restore.Location = new System.Drawing.Point(856, 10);
+            this.btn_restore.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_restore.Name = "btn_restore";
-            this.btn_restore.Size = new System.Drawing.Size(40, 38);
+            this.btn_restore.Size = new System.Drawing.Size(30, 31);
             this.btn_restore.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btn_restore.TabIndex = 3;
             this.btn_restore.TabStop = false;
@@ -160,7 +167,8 @@
             this.btn_minimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_minimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_minimizar.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimizar.Image")));
-            this.btn_minimizar.Location = new System.Drawing.Point(1103, 12);
+            this.btn_minimizar.Location = new System.Drawing.Point(827, 10);
+            this.btn_minimizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_minimizar.Name = "btn_minimizar";
             this.btn_minimizar.Size = new System.Drawing.Size(32, 32);
             this.btn_minimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -173,7 +181,8 @@
             this.btn_close.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_close.Image = ((System.Drawing.Image)(resources.GetObject("btn_close.Image")));
-            this.btn_close.Location = new System.Drawing.Point(1179, 12);
+            this.btn_close.Location = new System.Drawing.Point(884, 10);
+            this.btn_close.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_close.Name = "btn_close";
             this.btn_close.Size = new System.Drawing.Size(32, 32);
             this.btn_close.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -185,7 +194,8 @@
             // 
             this.btn_menu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_menu.Image = ((System.Drawing.Image)(resources.GetObject("btn_menu.Image")));
-            this.btn_menu.Location = new System.Drawing.Point(6, 12);
+            this.btn_menu.Location = new System.Drawing.Point(4, 10);
+            this.btn_menu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_menu.Name = "btn_menu";
             this.btn_menu.Size = new System.Drawing.Size(30, 30);
             this.btn_menu.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -196,21 +206,24 @@
             // panel_contenedor
             // 
             this.panel_contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel_contenedor.Location = new System.Drawing.Point(77, 50);
+            this.panel_contenedor.Location = new System.Drawing.Point(58, 41);
+            this.panel_contenedor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel_contenedor.Name = "panel_contenedor";
-            this.panel_contenedor.Size = new System.Drawing.Size(1223, 600);
+            this.panel_contenedor.Size = new System.Drawing.Size(917, 487);
             this.panel_contenedor.TabIndex = 2;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1300, 650);
+            this.ClientSize = new System.Drawing.Size(975, 528);
             this.Controls.Add(this.panel_contenedor);
             this.Controls.Add(this.bar_title);
             this.Controls.Add(this.panel_menu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panel_menu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

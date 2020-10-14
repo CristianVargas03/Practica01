@@ -78,7 +78,7 @@
             this.panel_producto.Controls.Add(this.txt_ID);
             this.panel_producto.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel_producto.Location = new System.Drawing.Point(740, 0);
-            this.panel_producto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel_producto.Margin = new System.Windows.Forms.Padding(2);
             this.panel_producto.Name = "panel_producto";
             this.panel_producto.Size = new System.Drawing.Size(177, 488);
             this.panel_producto.TabIndex = 0;
@@ -91,7 +91,7 @@
             "Activo",
             "Inactivo"});
             this.cb_Estado.Location = new System.Drawing.Point(5, 422);
-            this.cb_Estado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_Estado.Margin = new System.Windows.Forms.Padding(2);
             this.cb_Estado.Name = "cb_Estado";
             this.cb_Estado.Size = new System.Drawing.Size(141, 28);
             this.cb_Estado.TabIndex = 16;
@@ -122,7 +122,7 @@
             // 
             this.txt_categoria.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_categoria.Location = new System.Drawing.Point(5, 371);
-            this.txt_categoria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_categoria.Margin = new System.Windows.Forms.Padding(2);
             this.txt_categoria.Name = "txt_categoria";
             this.txt_categoria.Size = new System.Drawing.Size(142, 26);
             this.txt_categoria.TabIndex = 12;
@@ -142,7 +142,7 @@
             // 
             this.txt_Descripcion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_Descripcion.Location = new System.Drawing.Point(5, 321);
-            this.txt_Descripcion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_Descripcion.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Descripcion.Name = "txt_Descripcion";
             this.txt_Descripcion.Size = new System.Drawing.Size(142, 26);
             this.txt_Descripcion.TabIndex = 10;
@@ -162,7 +162,7 @@
             // 
             this.txt_fecha_vencimiento.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_fecha_vencimiento.Location = new System.Drawing.Point(5, 271);
-            this.txt_fecha_vencimiento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_fecha_vencimiento.Margin = new System.Windows.Forms.Padding(2);
             this.txt_fecha_vencimiento.Name = "txt_fecha_vencimiento";
             this.txt_fecha_vencimiento.Size = new System.Drawing.Size(142, 26);
             this.txt_fecha_vencimiento.TabIndex = 8;
@@ -182,7 +182,7 @@
             // 
             this.txt_stock.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_stock.Location = new System.Drawing.Point(5, 219);
-            this.txt_stock.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_stock.Margin = new System.Windows.Forms.Padding(2);
             this.txt_stock.Name = "txt_stock";
             this.txt_stock.Size = new System.Drawing.Size(142, 26);
             this.txt_stock.TabIndex = 6;
@@ -202,7 +202,7 @@
             // 
             this.txt_codigo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_codigo.Location = new System.Drawing.Point(4, 166);
-            this.txt_codigo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_codigo.Margin = new System.Windows.Forms.Padding(2);
             this.txt_codigo.Name = "txt_codigo";
             this.txt_codigo.Size = new System.Drawing.Size(142, 26);
             this.txt_codigo.TabIndex = 4;
@@ -222,7 +222,7 @@
             // 
             this.txt_nombre_producto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_nombre_producto.Location = new System.Drawing.Point(4, 117);
-            this.txt_nombre_producto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_nombre_producto.Margin = new System.Windows.Forms.Padding(2);
             this.txt_nombre_producto.Name = "txt_nombre_producto";
             this.txt_nombre_producto.Size = new System.Drawing.Size(142, 26);
             this.txt_nombre_producto.TabIndex = 2;
@@ -242,7 +242,7 @@
             // 
             this.txt_ID.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_ID.Location = new System.Drawing.Point(5, 63);
-            this.txt_ID.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_ID.Margin = new System.Windows.Forms.Padding(2);
             this.txt_ID.Name = "txt_ID";
             this.txt_ID.Size = new System.Drawing.Size(142, 26);
             this.txt_ID.TabIndex = 0;
@@ -256,7 +256,7 @@
             this.crud_productos.Controls.Add(this.btn_create);
             this.crud_productos.Dock = System.Windows.Forms.DockStyle.Top;
             this.crud_productos.Location = new System.Drawing.Point(0, 0);
-            this.crud_productos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.crud_productos.Margin = new System.Windows.Forms.Padding(2);
             this.crud_productos.Name = "crud_productos";
             this.crud_productos.Size = new System.Drawing.Size(740, 81);
             this.crud_productos.TabIndex = 1;
@@ -274,7 +274,7 @@
             this.btn_delete.Image = ((System.Drawing.Image)(resources.GetObject("btn_delete.Image")));
             this.btn_delete.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_delete.Location = new System.Drawing.Point(570, 19);
-            this.btn_delete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_delete.Margin = new System.Windows.Forms.Padding(2);
             this.btn_delete.Name = "btn_delete";
             this.btn_delete.Size = new System.Drawing.Size(146, 47);
             this.btn_delete.TabIndex = 3;
@@ -295,7 +295,7 @@
             this.btn_update.Image = ((System.Drawing.Image)(resources.GetObject("btn_update.Image")));
             this.btn_update.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_update.Location = new System.Drawing.Point(385, 19);
-            this.btn_update.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_update.Margin = new System.Windows.Forms.Padding(2);
             this.btn_update.Name = "btn_update";
             this.btn_update.Size = new System.Drawing.Size(146, 47);
             this.btn_update.TabIndex = 2;
@@ -316,7 +316,7 @@
             this.btn_Read.Image = ((System.Drawing.Image)(resources.GetObject("btn_Read.Image")));
             this.btn_Read.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Read.Location = new System.Drawing.Point(201, 19);
-            this.btn_Read.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_Read.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Read.Name = "btn_Read";
             this.btn_Read.Size = new System.Drawing.Size(146, 47);
             this.btn_Read.TabIndex = 1;
@@ -337,7 +337,7 @@
             this.btn_create.Image = ((System.Drawing.Image)(resources.GetObject("btn_create.Image")));
             this.btn_create.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_create.Location = new System.Drawing.Point(17, 19);
-            this.btn_create.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_create.Margin = new System.Windows.Forms.Padding(2);
             this.btn_create.Name = "btn_create";
             this.btn_create.Size = new System.Drawing.Size(146, 47);
             this.btn_create.TabIndex = 0;
@@ -351,7 +351,7 @@
             this.dgProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgProductos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgProductos.Location = new System.Drawing.Point(0, 81);
-            this.dgProductos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgProductos.Margin = new System.Windows.Forms.Padding(2);
             this.dgProductos.Name = "dgProductos";
             this.dgProductos.RowHeadersWidth = 51;
             this.dgProductos.RowTemplate.Height = 24;
@@ -367,8 +367,9 @@
             this.Controls.Add(this.crud_productos);
             this.Controls.Add(this.panel_producto);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Productos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Productos";
             this.panel_producto.ResumeLayout(false);
             this.panel_producto.PerformLayout();
