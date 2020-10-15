@@ -16,8 +16,6 @@ Estado_Prod VARCHAR (50)
 insert into Productos (Nombre_Prod, Codigo, Stock, Fecha_Vencimiento, Descripcion, Categoria, Estado_Prod)
 values 
 
-('Manzanas', 001, 50, '10/08/2020', 'Rojas', 'Frutas', 'Activo'),
-('Peras', 002, 40, '10/08/2020', 'Verdes', 'Frutas', 'Activo'),
 ('Salchichas', 003, 60, '10/08/2020', 'Chorizo', 'Enlatados', 'Activo'),
 ('Papas', 004, 80, '10/08/2020', 'Amarilla', 'Viveres', 'Inactivo'),
 ('Apio', 005, 40, '10/08/2020', 'Verde', 'Verduras', 'Activo'),
@@ -27,7 +25,7 @@ values
 ('Canela', 009, 70, '10/08/2020', 'Polvo', 'Especias', 'Activo'),
 ('Yogurt', 0010, 45, '10/08/2020', 'Fresa', 'Lacteos', 'Activo')
 
-select * from Productos
+
 
 CREATE TABLE Categoria
 (
@@ -51,7 +49,7 @@ values
 ('Especias', 'Activo')
 
 select * from Categoria
-
+select * from Productos
 
 CREATE PROC Editar_Productos
 @nombre varchar(50),
@@ -66,7 +64,7 @@ as
 Update Productos Set Nombre_Prod=@nombre, Codigo=@codigo, Stock=@stock, Fecha_Vencimiento=@fecha_vencimiento, Descripcion=@descripcion, Categoria=@categoria, Estado_Prod=@estado where ID_Prod=@id
 go
 
-exec Editar_Productos 'Platano',1,10,'10/05/2020','Maduro','Vivere','Activo', 1002
+exec Editar_Productos 'Platano',1,1,'10/05/2020','Maduro','Vivere','Activo', 1
 
 create proc Eliminar_Productos
 @idproducto int
@@ -75,6 +73,8 @@ delete from Productos where ID_Prod=@idproducto
 go
 
 exec Eliminar_Producto 1001
+
+--------------------------------------------------------------------------------------------
 
 CREATE PROC Editar_Categoria
 @nombre varchar(50),

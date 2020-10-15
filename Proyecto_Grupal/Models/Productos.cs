@@ -8,7 +8,7 @@ using System.Data;
 
 namespace Models
 {
-    class Productos
+    public class Productos
     {
         private Connection conexion = new Connection();
         SqlDataReader DR;
@@ -29,7 +29,8 @@ namespace Models
         public void Insertar(string Nombre_Prod, int Codigo, int Stock, DateTime Fecha_Vencimiento, string Descripcion, string Categoria, string Estado_Prod)
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "Insert into Productos values('" + Nombre_Prod + "', '" + Codigo + "', '" + Codigo + "', '" + Stock + "', '" + Fecha_Vencimiento + "', '" + Descripcion + "', '" + Categoria + "', '" + Estado_Prod + "')";
+            comando.CommandText = "Insert into Productos values('" + Nombre_Prod + "', '" + Codigo + "', '" + Stock + "', '" + Fecha_Vencimiento + "', '" + Descripcion + "', '" + Categoria + "', '" + Estado_Prod + "')";
+            comando.CommandType = CommandType.Text;
             comando.ExecuteNonQuery();
             comando.Parameters.Clear();
         }
@@ -53,7 +54,7 @@ namespace Models
         public void Eliminar(int ID)
         {
             comando.Connection = conexion.AbrirConexion();
-            comando.CommandText = "Eliminar_Producto";
+            comando.CommandText = "Eliminar_Productos";
             comando.CommandType = CommandType.StoredProcedure;
             comando.Parameters.AddWithValue("@idproducto", ID);
             comando.ExecuteNonQuery();

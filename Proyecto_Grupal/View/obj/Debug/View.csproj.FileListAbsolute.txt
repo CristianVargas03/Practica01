@@ -30,3 +30,5 @@ C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj
 C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.csproj.CopyComplete
 C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.exe
 C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\obj\Debug\View.pdb
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\bin\Debug\Models.dll
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\View\bin\Debug\Models.pdb

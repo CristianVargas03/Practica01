@@ -10,7 +10,7 @@ namespace Models
 {
     class Connection
     {
-        SqlConnection Conexion = new SqlConnection("Data source= DESKTOP-KL13RAS; Initial Catalog= Practica1; Integrated Security=True");
+        SqlConnection Conexion = new SqlConnection("Data source= LAPTOP-CV-2O729\\SQLEXPRESS; Initial Catalog= Practica1; Integrated Security=True");
         public SqlConnection AbrirConexion()
         {
             if (Conexion.State == ConnectionState.Closed)

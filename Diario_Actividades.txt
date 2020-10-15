@@ -11,3 +11,5 @@ fechas y comentarios de los que realizo.
 13/10/2020, 3:15pm			Conexiones				Onily Valera
 13/10/2020, 4:00pm			Ajustes en Controller.			Cristian I. Vargas
 13/10/2020, 4:30pm			Ajustes en Vista			Eddyson Ureña
+13/10/2020, 10:30			Continuacion de Modelo			Onily Valera
+14/10/2020, Todo el dia			Finalizacion de Proyecto		Cristian Vargas

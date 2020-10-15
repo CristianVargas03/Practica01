@@ -10,3 +10,6 @@ C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\Controll
 C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\Controller\obj\Debug\Controller.csproj.CoreCompileInputs.cache
 C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\Controller\obj\Debug\Controller.dll
 C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\Controller\obj\Debug\Controller.pdb
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\Controller\bin\Debug\Models.dll
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\Controller\bin\Debug\Models.pdb
+C:\Users\civar\Desktop\Tarea\Programacion II\Practica01\Proyecto_Grupal\Controller\obj\Debug\Controller.csproj.CopyComplete

@@ -5,124 +5,36 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Forms;
+using System.Data;
+using Models;
+using System.Data.SqlClient;
 
 namespace Controller
 {
-    class Productos_Ctrl
+    public class Productos_Ctrl
     {
-        public int ID
+        Productos Model_PR = new Productos();
+
+        public DataTable Read()
         {
-            get
-            {
-                return ID;
-            }
-            set
-            {
-                ID = value;
-            }
+            DataTable tabla = new DataTable();
+            tabla = Model_PR.Mostrar();
+            return tabla;
         }
 
-        public int Nombre_Producto
+        public void Create(string Nombre, string Codigo, string Stock, string Fecha, string Desc, string Categoria, string Estado )
         {
-            get
-            {
-                return Nombre_Producto;
-            }
-            set
-            {
-                Nombre_Producto = value;
-            }
+            Model_PR.Insertar(Nombre,  Convert.ToInt32(Codigo), Convert.ToInt32(Stock), Convert.ToDateTime(Fecha), Desc, Categoria, Estado);
         }
 
-        public int Codigo
+        public void Update(string Nombre, string Codigo, string Stock, string Fecha, string Desc, string Categoria, string Estado, string Id)
         {
-            get
-            {
-                return Codigo;
-            }
-            set
-            {
-                Codigo = value;
-            }
-        }
-        public int Stock
-        {
-            get
-            {
-                return Stock;
-            }
-            set
-            {
-                Stock = value;
-            }
+            Model_PR.Editar(Nombre, Convert.ToInt32(Codigo), Convert.ToInt32(Stock), Convert.ToDateTime(Fecha), Desc, Categoria, Estado, Convert.ToInt32(Id));
         }
 
-        public DateTime Fecha_Vencimiento
+        public void Delete(string Id)
         {
-            get
-            {
-                return Fecha_Vencimiento;
-            }
-            set
-            {
-                Fecha_Vencimiento = value;
-            }
-        }
-
-        public int Descripcion
-        {
-            get
-            {
-                return Descripcion;
-            }
-            set
-            {
-                Descripcion = value;
-            }
-        }
-
-        public int Categoria
-        {
-            get
-            {
-                return Categoria;
-            }
-            set
-            {
-                Categoria = value;
-            }
-        }
-
-        public int Estado
-        {
-            get
-            {
-                return Estado;
-            }
-            set
-            {
-                Estado = value;
-            }
-        }
-
-        public void Read()
-        {
-            
-        }
-
-        public void Created()
-        {
-            
-        }
-
-        public void Update()
-        {
-            
-        }
-
-        public void Delete()
-        {
-            
+            Model_PR.Eliminar(Convert.ToInt32(Id));
         }
     }
 

@@ -3,68 +3,36 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data;
+using Models;
+using System.Data.SqlClient;
 
 namespace Controller
 {
-    class Categoria_Ctrl
+    public class Categoria_Ctrl
     {
-        public int ID
-        {
-            get
-            {
-                return ID;
-            }
-            set
-            {
-                ID = value;
+        Categorias Model_CT = new Categorias();
 
-            }
+        public DataTable Read()
+        {
+            DataTable tabla = new DataTable();
+            tabla = Model_CT.Mostrar();
+            return tabla;
         }
 
-        public int Nombre
+        public void Create(string Categoria, string Estado)
         {
-            get
-            {
-                return Nombre;
-            }
-            set
-            {
-                Nombre = value;
-
-            }
+            Model_CT.Insertar(Categoria, Estado);
         }
 
-        public int Estado
+        public void Update(string Categoria, string Estado, string Id)
         {
-            get
-            {
-                return Estado;
-            }
-            set
-            {
-                Estado = value;
-
-            }
+            Model_CT.Editar(Categoria, Estado, Convert.ToInt32(Id));
         }
 
-        public void Read()
+        public void Delete(string Id)
         {
-           
-        }
-
-        public void Create()
-        {
-            
-        }
-
-        public void Update()
-        {
-           
-        }
-
-        public void Delete()
-        {
-           
+            Model_CT.Eliminar(Convert.ToInt32(Id));
         }
     }
 }

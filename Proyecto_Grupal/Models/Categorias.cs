@@ -8,7 +8,7 @@ using System.Data;
 
 namespace Models
 {
-    class Categorias
+    public class Categorias
     {
         private Connection conexion = new Connection();
         SqlDataReader DR;
@@ -30,6 +30,7 @@ namespace Models
         {
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "Insert into Categoria values('" + Nombre_Catg + "', '" + Estado_Catg + "')";
+            comando.CommandType = CommandType.Text;
             comando.ExecuteNonQuery();
             comando.Parameters.Clear();
         }
@@ -50,7 +51,7 @@ namespace Models
             comando.Connection = conexion.AbrirConexion();
             comando.CommandText = "Eliminar_Categoria";
             comando.CommandType = CommandType.StoredProcedure;
-            comando.Parameters.AddWithValue("@idproducto", ID_Catg);
+            comando.Parameters.AddWithValue("@idcatg", ID_Catg);
             comando.ExecuteNonQuery();
             comando.Parameters.Clear();
             conexion.CerrarConexion();
