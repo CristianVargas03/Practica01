@@ -29,13 +29,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Productos));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel_producto = new System.Windows.Forms.Panel();
+            this.txt_categoria = new System.Windows.Forms.ComboBox();
             this.txt_fecha_vencimiento = new System.Windows.Forms.DateTimePicker();
             this.cb_Estado = new System.Windows.Forms.ComboBox();
             this.lbl_Estado = new System.Windows.Forms.Label();
             this.btn_create = new System.Windows.Forms.Button();
             this.lbl_categoria = new System.Windows.Forms.Label();
             this.lbl_descripcion = new System.Windows.Forms.Label();
+            this.txt_Descripcion = new System.Windows.Forms.TextBox();
             this.lbl_Fecha_vencimiento = new System.Windows.Forms.Label();
             this.lbl_stock = new System.Windows.Forms.Label();
             this.txt_stock = new System.Windows.Forms.TextBox();
@@ -48,8 +51,6 @@
             this.btn_update = new System.Windows.Forms.Button();
             this.btn_Read = new System.Windows.Forms.Button();
             this.dgProductos = new System.Windows.Forms.DataGridView();
-            this.txt_Descripcion = new System.Windows.Forms.TextBox();
-            this.txt_categoria = new System.Windows.Forms.ComboBox();
             this.panel_producto.SuspendLayout();
             this.crud_productos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgProductos)).BeginInit();
@@ -79,6 +80,19 @@
             this.panel_producto.Name = "panel_producto";
             this.panel_producto.Size = new System.Drawing.Size(193, 488);
             this.panel_producto.TabIndex = 0;
+            // 
+            // txt_categoria
+            // 
+            this.txt_categoria.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_categoria.FormattingEnabled = true;
+            this.txt_categoria.Items.AddRange(new object[] {
+            "Activo",
+            "Inactivo"});
+            this.txt_categoria.Location = new System.Drawing.Point(6, 295);
+            this.txt_categoria.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_categoria.Name = "txt_categoria";
+            this.txt_categoria.Size = new System.Drawing.Size(180, 28);
+            this.txt_categoria.TabIndex = 18;
             // 
             // txt_fecha_vencimiento
             // 
@@ -155,6 +169,15 @@
             this.lbl_descripcion.Size = new System.Drawing.Size(96, 20);
             this.lbl_descripcion.TabIndex = 11;
             this.lbl_descripcion.Text = "Descripcion";
+            // 
+            // txt_Descripcion
+            // 
+            this.txt_Descripcion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Descripcion.Location = new System.Drawing.Point(7, 244);
+            this.txt_Descripcion.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_Descripcion.Name = "txt_Descripcion";
+            this.txt_Descripcion.Size = new System.Drawing.Size(180, 26);
+            this.txt_Descripcion.TabIndex = 10;
             // 
             // lbl_Fecha_vencimiento
             // 
@@ -307,6 +330,14 @@
             // 
             this.dgProductos.BackgroundColor = System.Drawing.Color.White;
             this.dgProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgProductos.DefaultCellStyle = dataGridViewCellStyle1;
             this.dgProductos.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgProductos.Location = new System.Drawing.Point(0, 81);
             this.dgProductos.Margin = new System.Windows.Forms.Padding(2);
@@ -315,28 +346,6 @@
             this.dgProductos.RowTemplate.Height = 24;
             this.dgProductos.Size = new System.Drawing.Size(724, 407);
             this.dgProductos.TabIndex = 2;
-            // 
-            // txt_Descripcion
-            // 
-            this.txt_Descripcion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_Descripcion.Location = new System.Drawing.Point(7, 244);
-            this.txt_Descripcion.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_Descripcion.Name = "txt_Descripcion";
-            this.txt_Descripcion.Size = new System.Drawing.Size(180, 26);
-            this.txt_Descripcion.TabIndex = 10;
-            // 
-            // txt_categoria
-            // 
-            this.txt_categoria.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_categoria.FormattingEnabled = true;
-            this.txt_categoria.Items.AddRange(new object[] {
-            "Activo",
-            "Inactivo"});
-            this.txt_categoria.Location = new System.Drawing.Point(6, 295);
-            this.txt_categoria.Margin = new System.Windows.Forms.Padding(2);
-            this.txt_categoria.Name = "txt_categoria";
-            this.txt_categoria.Size = new System.Drawing.Size(180, 28);
-            this.txt_categoria.TabIndex = 18;
             // 
             // Productos
             // 

@@ -97,7 +97,7 @@
             this.btn_productos.Name = "btn_productos";
             this.btn_productos.Size = new System.Drawing.Size(250, 53);
             this.btn_productos.TabIndex = 1;
-            this.btn_productos.Text = " productos";
+            this.btn_productos.Text = " Productos";
             this.btn_productos.UseVisualStyleBackColor = false;
             this.btn_productos.Click += new System.EventHandler(this.btn_productos_Click);
             // 
