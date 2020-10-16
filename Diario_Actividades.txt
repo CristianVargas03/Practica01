@@ -13,3 +13,7 @@ fechas y comentarios de los que realizo.
 13/10/2020, 4:30pm			Ajustes en Vista			Eddyson Ureña
 13/10/2020, 10:30			Continuacion de Modelo			Onily Valera
 14/10/2020, Todo el dia			Finalizacion de Proyecto		Cristian Vargas
+
+
+Link del Repositorio:
+https://github.com/CristianVargas03/Practica01.git
